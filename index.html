@@ -209,42 +209,42 @@
         <tbody>
             {% for entry in glass_data %}
             <tr>
-                <td>
+                <td rowspan="{{ entry.nombre_types_verres }}">
                     <form action="{{ url_for('delete_document_reference', id=entry.id) }}" method="post">
                         <button type="submit" class="delete-btn btn btn-danger btn-sm">❌</button>
                     </form>
                 </td>
-                <td>{{ entry.type_document }}</td>
-                <td>{{ entry.titre }}</td>
-                <td>{{ entry.reference }}</td>
-                <td>{{ entry.premier_auteur }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.type_document }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.titre }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.reference }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.premier_auteur }}</td>
                 <td>{{ entry.sio2 }}</td>
                 <td>{{ entry.b2o3 }}</td>
                 <td>{{ entry.na2o }}</td>
                 <td>{{ entry.al2o3 }}</td>
                 <td>{{ entry.fines }}</td>
-                <td>{{ entry.densite }}</td>
-                <td>{{ entry.homogeneite }}</td>
-                <td>{{ entry.b_iv_pourcent }}</td>
-                <td>{{ entry.irradie }}</td>
-                <td>{{ entry.caracteristiques_irradie }}</td>
-                <td>{{ entry.temperature }}</td>
-                <td>{{ entry.statique_dynamique }}</td>
-                <td>{{ entry.plage_granulo }}</td>
-                <td>{{ entry.surface_specifique_geometrique }}</td>
-                <td>{{ entry.surface_specifique_bet }}</td>
-                <td>{{ entry.qualite_polissage }}</td>
-                <td>{{ entry.masse_verre }}</td>
-                <td>{{ entry.s_verre }}</td>
-                <td>{{ entry.v_solution }}</td>
-                <td>{{ entry.debit_solution }}</td>
-                <td>{{ entry.ph_initial }}</td>
-                <td>{{ entry.ph_final }}</td>
-                <td>{{ entry.composition_solution }}</td>
-                <td>{{ entry.duree_experience }}</td>
-                <td>{{ entry.ph_final_amb }}</td>
-                <td>{{ entry.ph_final_test }}</td>
-                <td>{{ entry.normalisation_vitesse }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.densite }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.homogeneite }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.b_iv_pourcent }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.irradie }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.caracteristiques_irradie }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.temperature }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.statique_dynamique }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.plage_granulo }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.surface_specifique_geometrique }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.surface_specifique_bet }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.qualite_polissage }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.masse_verre }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.s_verre }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.v_solution }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.debit_solution }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.ph_initial }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.ph_final }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.composition_solution }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.duree_experience }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.ph_final_amb }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.ph_final_test }}</td>
+                <td rowspan="{{ entry.nombre_types_verres }}">{{ entry.normalisation_vitesse }}</td>
                 <td>{{ entry.v0_si }}</td>
                 <td>{{ entry.r_carre_si }}</td>
                 <td>{{ entry.ordonnee_origine_si }}</td>
@@ -258,38 +258,10 @@
             </tr>
             {% for _ in range(entry.nombre_types_verres - 1) %}
             <tr>
-                <td></td>
-                <td>{{ entry.type_document }}</td>
-                <td>{{ entry.titre }}</td>
-                <td>{{ entry.reference }}</td>
-                <td>{{ entry.premier_auteur }}</td>
                 <td>Non</td>
                 <td>Non</td>
                 <td>Non</td>
                 <td>Non</td>
-                <td>Non</td>
-                <td>{{ entry.densite }}</td>
-                <td>{{ entry.homogeneite }}</td>
-                <td>{{ entry.b_iv_pourcent }}</td>
-                <td>{{ entry.irradie }}</td>
-                <td>{{ entry.caracteristiques_irradie }}</td>
-                <td>{{ entry.temperature }}</td>
-                <td>{{ entry.statique_dynamique }}</td>
-                <td>{{ entry.plage_granulo }}</td>
-                <td>{{ entry.surface_specifique_geometrique }}</td>
-                <td>{{ entry.surface_specifique_bet }}</td>
-                <td>{{ entry.qualite_polissage }}</td>
-                <td>{{ entry.masse_verre }}</td>
-                <td>{{ entry.s_verre }}</td>
-                <td>{{ entry.v_solution }}</td>
-                <td>{{ entry.debit_solution }}</td>
-                <td>{{ entry.ph_initial }}</td>
-                <td>{{ entry.ph_final }}</td>
-                <td>{{ entry.composition_solution }}</td>
-                <td>{{ entry.duree_experience }}</td>
-                <td>{{ entry.ph_final_amb }}</td>
-                <td>{{ entry.ph_final_test }}</td>
-                <td>{{ entry.normalisation_vitesse }}</td>
                 <td>Non</td>
                 <td>Non</td>
                 <td>Non</td>
@@ -304,6 +276,7 @@
             {% endfor %}
             {% endfor %}
         </tbody>
+        
     </table>
 </div>
 
