@@ -126,40 +126,40 @@ def add_glass_data():
         db.session.commit()
 
         # Créer des entrées supplémentaires avec "Non" pour les champs de composition
-        for _ in range(int(nombre_types_verres) - 1):
+        '''for _ in range(int(nombre_types_verres) - 1):
             additional_entry = GlassData(
                 type_document=data.get('type_document'),
                 titre=data.get('titre'),
                 reference=data.get('reference'),
                 premier_auteur=data.get('premier_auteur'),
-                nombre_types_verres=nombre_types_verres,
+                nombre_types_verres=1,
                 sio2="Non",
                 b2o3="Non",
                 na2o="Non",
                 al2o3="Non",
                 fines="Non",
                 densite="Non",
-                homogeneite=data.get('homogeneite'),
-                b_iv_pourcent=data.get('b_iv_pourcent'),
-                irradie=data.get('irradie'),
-                caracteristiques_irradie=data.get('caracteristiques_irradie'),
-                temperature=data.get('temperature'),
-                statique_dynamique=data.get('statique_dynamique'),
-                plage_granulo=data.get('plage_granulo'),
-                surface_specifique_geometrique=data.get('surface_specifique_geometrique'),
-                surface_specifique_bet=data.get('surface_specifique_bet'),
-                qualite_polissage=data.get('qualite_polissage'),
-                masse_verre=data.get('masse_verre'),
-                s_verre=data.get('s_verre'),
-                v_solution=data.get('v_solution'),
-                debit_solution=data.get('debit_solution'),
-                ph_initial=data.get('ph_initial'),
-                ph_final=data.get('ph_final'),
-                composition_solution=data.get('composition_solution'),
-                duree_experience=data.get('duree_experience'),
-                ph_final_amb=data.get('ph_final_amb'),
-                ph_final_test=data.get('ph_final_test'),
-                normalisation_vitesse=data.get('normalisation_vitesse'),
+                homogeneite="Non",
+                b_iv_pourcent="Non",
+                irradie="Non",
+                caracteristiques_irradie="Non",
+                temperature="Non",
+                statique_dynamique="Non",
+                plage_granulo="Non",
+                surface_specifique_geometrique="Non",
+                surface_specifique_bet="Non",
+                qualite_polissage="Non",
+                masse_verre="Non",
+                s_verre="Non",
+                v_solution="Non",
+                debit_solution="Non",
+                ph_initial="Non",
+                ph_final="Non",
+                composition_solution="Non",
+                duree_experience="Non",
+                ph_final_amb="Non",
+                ph_final_test="Non",
+                normalisation_vitesse="Non",
                 v0_si="Non",
                 r_carre_si="Non",
                 ordonnee_origine_si="Non",
@@ -173,7 +173,7 @@ def add_glass_data():
             )
             db.session.add(additional_entry)
             db.session.commit()
-
+'''
         return "Données sur le verre ajoutées avec succès !", 200
 
     except Exception as e:
@@ -198,7 +198,8 @@ def upload_file():
         file.save(filepath)
 
         # Call Docling script
-        docling_script_path = '/home/intra.cea.fr/ao280403/DOCLING_LANGFLOW_FLASK_v2/DLF/docling_script.py'
+        docling_script_path = 'C:\\Users\\hp\\Desktop\\FLD\\FLD\\docling_script.py'
+
         if not os.path.exists(docling_script_path):
             return f"Docling script not found at: {docling_script_path}", 500
 
@@ -238,19 +239,19 @@ def upload_file():
 
         # Call Langflow API
         response = requests.post(
-            "http://127.0.0.1:7860/api/v1/run/a7e4b6a1-d444-487c-bec7-a954e6d42725?stream=false",
+            "http://127.0.0.1:7860/api/v1/run/2e64ea7c-8ed6-4467-9060-3ab693948fe2?stream=false",
             json={
                 "input_value": md_content,
                 "output_type": "chat",
                 "input_type": "text",
                 "tweaks": {
-                    "MistralModel-X63zd": {},
-                    "File-yvKBt": {},
-                    "Prompt-F8PHW": {},
-                    "ParseData-ggwft": {},
-                    "TextInput-4LsXJ": {},
-                    "ChatOutput-Uou7S": {},
-                    "CustomComponent-OsOFR": {}
+                    "ChatInput-uBndx": {},
+                    "ChatOutput-e4Cdi": {},
+                    "ParseData-CK6O5": {},
+                    "File-hlKV6": {},
+                    "Prompt-vwU10": {},
+                    "MistralModel-i7sye": {},
+                    "CustomComponent-38ziX": {}
                 }
             }
         )
