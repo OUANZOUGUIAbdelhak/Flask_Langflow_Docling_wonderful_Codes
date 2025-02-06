@@ -1,0 +1,104 @@
+Veuillez lire le document ci-dessous et extraire les informations demandées. Identifiez uniquement les informations liées au document et à la composition du premier type de verre (en % masse d'oxydes). J'insiste fortement sur le fait que toutes les valeurs extraites doivent concerner seulement le premier type de verre dans le document, sauf la valeur du nombre de type de verres qui doit être la valeur du nombre de type de verres présent dans l'article, et si jamais ce nombre n'est pas mentionné, je veux que tu compte toi même le nombre de type de verres et de mettre cette valeur dans ça place. Formatez les réponses clairement.
+
+
+---
+
+**Document** :
+{Document}
+
+---
+
+**Informations demandées** :
+1. Type du document : [Type clair, sans texte additionnel]
+2. Titre du document : [Titre clair, sans texte additionnel]
+3. Référence : [Référence claire, sans texte additionnel]
+4. Premier Auteur : [Nom complet clair, sans texte additionnel]
+5. Nombre de types de verres : [Nombre]
+6. SiO₂ : [Valeur numérique]
+7. B₂O₃ : [Valeur numérique]
+8. Na₂O : [Valeur numérique]
+9. Al₂O₃ : [Valeur numérique]
+10. Fines : [Valeur numérique]
+11. Densité : [Valeur numérique]
+12. Homogénéité : [Commentaire]
+13. % B(IV) : [Valeur numérique]
+14. Irradié : [O/N]
+15. Caractéristiques si irradié : [Commentaire]
+16. Température : [Valeur numérique]
+17. Statique/dynamique : [Commentaire]
+18. Plage granulo si poudre : [Valeur numérique]
+19. Surface spécifique géométrique si poudre : [Valeur numérique]
+20. Surface spécifique BET si poudre : [Valeur numérique]
+21. Qualité polissage si monolithe : [Commentaire]
+22. Masse verre : [Valeur numérique]
+23. S(verre) : [Valeur numérique]
+24. V(solution) : [Valeur numérique]
+25. Débit solution : [Valeur numérique]
+26. pH initial (T amb) : [Valeur numérique]
+27. pH initial (T essai) : [Valeur numérique]
+28. Compo solution : [Commentaire]
+29. Durée expérience : [Valeur numérique]
+30. pH final (T amb) : [Valeur numérique]
+31. pH final (T essai) : [Valeur numérique]
+32. Normalisation vitesse (Spm ou SBET) : [Valeur numérique]
+33. V₀(Si) : [Valeur numérique]
+34. r²(Si) : [Valeur numérique]
+35. Ordonnée origine : [Valeur numérique]
+36. V₀(B) : [Valeur numérique]
+37. Ordonnée origine : [Valeur numérique]
+38. V₀(Na) : [Valeur numérique]
+39. r²(Na) : [Valeur numérique]
+40. Ordonnée origine : [Valeur numérique]
+41. V₀(ΔM) : [Valeur numérique]
+42. Congruence : [Commentaire]
+
+---
+
+**Format attendu** :
+1. Type du document : [Type]
+2. Titre du document : [Titre]
+3. Référence : [Référence]
+4. Premier Auteur : [Premier Auteur]
+5. Nombre de types de verres : [Nombre]
+6. SiO₂ : [Valeur]
+7. B₂O₃ : [Valeur]
+8. Na₂O : [Valeur]
+9. Al₂O₃ : [Valeur]
+10. Fines : [Valeur]
+11. Densité : [Valeur]
+12. Homogénéité : [Commentaire]
+13. % B(IV) : [Valeur]
+14. Irradié : [O/N]
+15. Caractéristiques si irradié : [Commentaire]
+16. Température : [Valeur]
+17. Statique/dynamique : [Commentaire]
+18. Plage granulo si poudre : [Valeur]
+19. Surface spécifique géométrique si poudre : [Valeur]
+20. Surface spécifique BET si poudre : [Valeur]
+21. Qualité polissage si monolithe : [Commentaire]
+22. Masse verre : [Valeur]
+23. S(verre) : [Valeur]
+24. V(solution) : [Valeur]
+25. Débit solution : [Valeur]
+26. pH initial (T amb) : [Valeur]
+27. pH final (T essai) : [Valeur]
+28. Compo solution : [Commentaire]
+29. Durée expérience : [Valeur]
+30. pH final (T amb) : [Valeur]
+31. pH final (T essai) : [Valeur]
+32. Normalisation vitesse (Spm ou SBET) : [Valeur]
+33. V₀(Si) : [Valeur]
+34. r²(Si) : [Valeur]
+35. Ordonnée origine : [Valeur]
+36. V₀(B) : [Valeur]
+37. Ordonnée origine : [Valeur]
+38. V₀(Na) : [Valeur]
+39. r²(Na) : [Valeur]
+40. Ordonnée origine : [Valeur]
+41. V₀(ΔM) : [Valeur]
+42. Congruence : [Commentaire]
+
+
+---
+
+Si une des informations est indisponible dans le document, indiquez "Non disponible".
