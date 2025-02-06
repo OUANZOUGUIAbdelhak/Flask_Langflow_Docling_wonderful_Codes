@@ -1,0 +1,292 @@
+Veuillez lire le document ci-dessous et extraire les informations demandées. Identifiez les informations liées au document et à la composition de chaque type de verre (en % masse d'oxydes). Formatez les réponses clairement pour chaque type de verre. je veux que tu respicte forcément le format attendu et ne fait pas des raccorcis.
+
+---
+
+**Document :**
+{Document}
+
+---
+
+**Informations demandées :**
+
+1. **Type du document :** [Type clair, sans texte additionnel]
+   - Synonymes : Type de publication, Nature du document
+
+2. **Titre du document :** [Titre clair, sans texte additionnel]
+   - Synonymes : Nom de l'article, Intitulé
+
+3. **Référence :** [Référence claire, sans texte additionnel]
+   - Synonymes : Source, Citation
+
+4. **Premier Auteur :** [Nom complet clair, sans texte additionnel]
+   - Synonymes : Auteur principal, Auteur principal
+
+5. **Nombre de types de verres :** [Nombre]
+   - Synonymes : Nombre de compositions de verre, Variétés de verre
+
+**Pour chaque type de verre :**
+
+6. **Type de verre 1 :** [Description ou identifiant du type de verre]
+   - Synonymes : Composition de verre, Identifiant du verre
+
+   6.1. **SiO₂ (Type 1) :** [Valeur numérique]
+       - Synonymes : Silice, Dioxyde de silicium
+
+   6.2. **B₂O₃ (Type 1) :** [Valeur numérique]
+       - Synonymes : Oxyde de bore, Trioxyde de bore
+
+   6.3. **Na₂O (Type 1) :** [Valeur numérique]
+       - Synonymes : Oxyde de sodium, Soude
+
+   6.4. **Al₂O₃ (Type 1) :** [Valeur numérique]
+       - Synonymes : Oxyde d'aluminium, Alumine
+
+   6.5. **Fines (Type 1) :** [Valeur numérique]
+       - Synonymes : Particules fines, Fraction fine
+
+   6.6. **Densité (Type 1) :** [Valeur numérique]
+       - Synonymes : Masse volumique, Densité apparente
+
+   6.7. **Homogénéité (Type 1) :** [Commentaire]
+       - Synonymes : Uniformité, Consistance
+
+   6.8. **% B(IV) (Type 1) :** [Valeur numérique]
+       - Synonymes : Fraction de bore tétracoordiné, Pourcentage de bore IV
+
+   6.9. **Irradié (Type 1) :** [O/N]
+       - Synonymes : Pré-irradié, Irradiation préalable
+
+   6.10. **Caractéristiques si irradié (Type 1) :** [Commentaire]
+        - Synonymes : Détails de l'irradiation, Conditions d'irradiation
+        - Exemples : Électrons, Ions lourds, Énergie, Fluence
+
+   6.11. **Température (Type 1) :** [Valeur numérique]
+        - Synonymes : Température expérimentale, Température de test
+
+   6.12. **Statique/dynamique (Type 1) :** [Commentaire]
+        - Synonymes : Mode statique/dynamique, Renouvellement de la solution
+
+   6.13. **Plage granulo si poudre (Type 1) :** [Valeur numérique]
+        - Synonymes : Taille des particules, Mesh size, Particle size fraction
+
+   6.14. **Surface spécifique géométrique si poudre (Type 1) :** [Valeur numérique]
+        - Synonymes : Surface géométrique, Geometric surface area
+
+   6.15. **Surface spécifique BET si poudre (Type 1) :** [Valeur numérique]
+        - Synonymes : Surface BET, BET surface area
+
+   6.16. **Qualité polissage si monolithe (Type 1) :** [Commentaire]
+        - Synonymes : Grade de polissage, Polishing grade
+
+   6.17. **Masse verre (Type 1) :** [Valeur numérique]
+        - Synonymes : Masse de verre utilisée, Quantité de verre
+
+   6.18. **S(verre) (Type 1) :** [Valeur numérique]
+        - Synonymes : Surface du verre, Surface exposée
+
+   6.19. **V(solution) (Type 1) :** [Valeur numérique]
+        - Synonymes : Volume de solution, Volume du liquide
+
+   6.20. **Débit solution (Type 1) :** [Valeur numérique]
+        - Synonymes : Taux de renouvellement, Flow rate, Renewal rate
+
+   6.21. **pH initial (T amb) (Type 1) :** [Valeur numérique]
+        - Synonymes : pH de départ, Onset pH, Starting pH
+
+   6.22. **pH initial (T essai) (Type 1) :** [Valeur numérique]
+        - Synonymes : pH initial à température d'essai, Initial pH at test temperature
+
+   6.23. **Compo solution (Type 1) :** [Commentaire]
+        - Synonymes : Composition de la solution, Solution d'altération
+
+   6.24. **Durée expérience (Type 1) :** [Valeur numérique]
+        - Synonymes : Durée du test, Temps d'expérience
+
+   6.25. **pH final (T amb) (Type 1) :** [Valeur numérique]
+        - Synonymes : pH final à température ambiante, Final pH at room temperature
+
+   6.26. **pH final (T essai) (Type 1) :** [Valeur numérique]
+        - Synonymes : pH final à température d'essai, Final pH at test temperature
+
+   6.27. **Normalisation vitesse (Spm ou SBET) (Type 1) :** [Valeur numérique]
+        - Synonymes : Normalisation par surface, Normalisation par surface BET
+
+   6.28. **V₀(Si) (Type 1) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (Si), Initial dissolution rate (Si)
+
+   6.29. **r²(Si) (Type 1) :** [Valeur numérique]
+        - Synonymes : Coefficient de régression (Si), Linear regression coefficient (Si)
+
+   6.30. **Ordonnée origine (Type 1) :** [Valeur numérique]
+        - Synonymes : Intercept, Y-intercept
+
+   6.31. **V₀(B) (Type 1) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (B), Initial dissolution rate (B)
+
+   6.32. **Ordonnée origine (Type 1) :** [Valeur numérique]
+        - Synonymes : Intercept (B), Y-intercept (B)
+
+   6.33. **V₀(Na) (Type 1) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (Na), Initial dissolution rate (Na)
+
+   6.34. **r²(Na) (Type 1) :** [Valeur numérique]
+        - Synonymes : Coefficient de régression (Na), Linear regression coefficient (Na)
+
+   6.35. **Ordonnée origine (Type 1) :** [Valeur numérique]
+        - Synonymes : Intercept (Na), Y-intercept (Na)
+
+   6.36. **V₀(ΔM) (Type 1) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (perte de masse), Initial dissolution rate (mass loss)
+
+   6.37. **Congruence (Type 1) :** [Commentaire]
+        - Synonymes : Congruence de dissolution, Congruency
+
+7. **Type de verre 2 :** [Description ou identifiant du type de verre]
+   - Synonymes : Composition de verre, Identifiant du verre
+
+   7.1. **SiO₂ (Type 2) :** [Valeur numérique]
+       - Synonymes : Silice, Dioxyde de silicium
+
+   7.2. **B₂O₃ (Type 2) :** [Valeur numérique]
+       - Synonymes : Oxyde de bore, Trioxyde de bore
+
+   7.3. **Na₂O (Type 2) :** [Valeur numérique]
+       - Synonymes : Oxyde de sodium, Soude
+
+   7.4. **Al₂O₃ (Type 2) :** [Valeur numérique]
+       - Synonymes : Oxyde d'aluminium, Alumine
+
+   7.5. **Fines (Type 2) :** [Valeur numérique]
+       - Synonymes : Particules fines, Fraction fine
+
+   7.6. **Densité (Type 2) :** [Valeur numérique]
+       - Synonymes : Masse volumique, Densité apparente
+
+   7.7. **Homogénéité (Type 2) :** [Commentaire]
+       - Synonymes : Uniformité, Consistance
+
+   7.8. **% B(IV) (Type 2) :** [Valeur numérique]
+       - Synonymes : Fraction de bore tétracoordiné, Pourcentage de bore IV
+
+   7.9. **Irradié (Type 2) :** [O/N]
+       - Synonymes : Pré-irradié, Irradiation préalable
+
+   7.10. **Caractéristiques si irradié (Type 2) :** [Commentaire]
+        - Synonymes : Détails de l'irradiation, Conditions d'irradiation
+        - Exemples : Électrons, Ions lourds, Énergie, Fluence
+
+   7.11. **Température (Type 2) :** [Valeur numérique]
+        - Synonymes : Température expérimentale, Température de test
+
+   7.12. **Statique/dynamique (Type 2) :** [Commentaire]
+        - Synonymes : Mode statique/dynamique, Renouvellement de la solution
+
+   7.13. **Plage granulo si poudre (Type 2) :** [Valeur numérique]
+        - Synonymes : Taille des particules, Mesh size, Particle size fraction
+
+   7.14. **Surface spécifique géométrique si poudre (Type 2) :** [Valeur numérique]
+        - Synonymes : Surface géométrique, Geometric surface area
+
+   7.15. **Surface spécifique BET si poudre (Type 2) :** [Valeur numérique]
+        - Synonymes : Surface BET, BET surface area
+
+   7.16. **Qualité polissage si monolithe (Type 2) :** [Commentaire]
+        - Synonymes : Grade de polissage, Polishing grade
+
+   7.17. **Masse verre (Type 2) :** [Valeur numérique]
+        - Synonymes : Masse de verre utilisée, Quantité de verre
+
+   7.18. **S(verre) (Type 2) :** [Valeur numérique]
+        - Synonymes : Surface du verre, Surface exposée
+
+   7.19. **V(solution) (Type 2) :** [Valeur numérique]
+        - Synonymes : Volume de solution, Volume du liquide
+
+   7.20. **Débit solution (Type 2) :** [Valeur numérique]
+        - Synonymes : Taux de renouvellement, Flow rate, Renewal rate
+
+   7.21. **pH initial (T amb) (Type 2) :** [Valeur numérique]
+        - Synonymes : pH de départ, Onset pH, Starting pH
+
+   7.22. **pH initial (T essai) (Type 2) :** [Valeur numérique]
+        - Synonymes : pH initial à température d'essai, Initial pH at test temperature
+
+   7.23. **Compo solution (Type 2) :** [Commentaire]
+        - Synonymes : Composition de la solution, Solution d'altération
+
+   7.24. **Durée expérience (Type 2) :** [Valeur numérique]
+        - Synonymes : Durée du test, Temps d'expérience
+
+   7.25. **pH final (T amb) (Type 2) :** [Valeur numérique]
+        - Synonymes : pH final à température ambiante, Final pH at room temperature
+
+   7.26. **pH final (T essai) (Type 2) :** [Valeur numérique]
+        - Synonymes : pH final à température d'essai, Final pH at test temperature
+
+   7.27. **Normalisation vitesse (Spm ou SBET) (Type 2) :** [Valeur numérique]
+        - Synonymes : Normalisation par surface, Normalisation par surface BET
+
+   7.28. **V₀(Si) (Type 2) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (Si), Initial dissolution rate (Si)
+
+   7.29. **r²(Si) (Type 2) :** [Valeur numérique]
+        - Synonymes : Coefficient de régression (Si), Linear regression coefficient (Si)
+
+   7.30. **Ordonnée origine (Type 2) :** [Valeur numérique]
+        - Synonymes : Intercept, Y-intercept
+
+   7.31. **V₀(B) (Type 2) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (B), Initial dissolution rate (B)
+
+   7.32. **Ordonnée origine (Type 2) :** [Valeur numérique]
+        - Synonymes : Intercept (B), Y-intercept (B)
+
+   7.33. **V₀(Na) (Type 2) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (Na), Initial dissolution rate (Na)
+
+   7.34. **r²(Na) (Type 2) :** [Valeur numérique]
+        - Synonymes : Coefficient de régression (Na), Linear regression coefficient (Na)
+
+   7.35. **Ordonnée origine (Type 2) :** [Valeur numérique]
+        - Synonymes : Intercept (Na), Y-intercept (Na)
+
+   7.36. **V₀(ΔM) (Type 2) :** [Valeur numérique]
+        - Synonymes : Vitesse initiale (perte de masse), Initial dissolution rate (mass loss)
+
+   7.37. **Congruence (Type 2) :** [Commentaire]
+        - Synonymes : Congruence de dissolution, Congruency
+   ...
+   ...
+---
+
+**Format attendu :**
+
+1. Type du document : [Type]
+2. Titre du document : [Titre]
+3. Référence : [Référence]
+4. Premier Auteur : [Premier Auteur]
+5. Nombre de types de verres : [Nombre]
+
+Pour chaque type de verre :
+
+6. Type de verre 1 : [Type1]
+6.1. SiO₂ (Type 1) : [Valeur]
+6.2. B₂O₃ (Type 1) : [Valeur]
+6.3. Na₂O (Type 1) : [Valeur]
+6.4. Al₂O₃ (Type 1) : [Valeur]
+6.5. Fines (Type 1) : [Valeur]
+6.6. Densité (Type 1) : [Valeur]
+   ...
+
+7. Type de verre 2 : [Type2]
+7.1. SiO₂ (Type 2) : [Valeur]
+7.2. B₂O₃ (Type 2) : [Valeur]
+7.3. Na₂O (Type 2) : [Valeur]
+7.4. Al₂O₃ (Type 2) : [Valeur]
+7.5. Fines (Type 2) : [Valeur]
+7.6. Densité (Type 2) : [Valeur]
+   ...
+...
+---
+
+il faut citer tous les types de glasse et de ne pas mettre les caractéristiques dans une même ligne, il faut toujours retourner à la ligne, et si une des informations est indisponible dans le document, indiquez "Non disponible".
